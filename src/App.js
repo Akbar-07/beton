@@ -9,9 +9,11 @@ import Zakazbeton6 from '../src/js/Zakazbeton6';
 import Zakazbeton7 from '../src/js/Zakazbeton7';
 import Zakazbeton8 from '../src/js/Zakazbeton8';
 import Zakazbeton9 from '../src/js/Zakazbeton9';
-
+import Navbar from './js/Navbar';
 import './App.css';
 import News from './js/News';
+import Login from './js/Login';
+
 
 class App extends Component {
 render() {
@@ -19,7 +21,8 @@ render() {
 	<Router>
 		<div className="App">
 		<Routes>
-				<Route exact path='/' element={< Zakazbeton />}></Route>
+				<Route exact path='/' element={< Login />}></Route>
+				<Route exact path='/Zakazbeton' element={< Zakazbeton />}></Route>
 				<Route exact path='/zakazbeton2' element={< Zakazbeton2 />}></Route>
 				<Route exact path='/zakazbeton3' element={< Zakazbeton3 />}></Route>
 				<Route export path='/zakazbeton4' element={<Zakazbeton4/>}></Route>
