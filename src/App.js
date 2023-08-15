@@ -11,6 +11,7 @@ import Zakazbeton8 from '../src/js/Zakazbeton8';
 import Zakazbeton9 from '../src/js/Zakazbeton9';
 
 import './App.css';
+import News from './js/News';
 
 class App extends Component {
 render() {
