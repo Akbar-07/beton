@@ -21,7 +21,7 @@ render() {
 	<Router>
 		<div className="App">
 		<Routes>
-				<Route exact path='/' element={< Login />}></Route>
+				<Route exact path='/' element={< News />}></Route>
 				<Route exact path='/Zakazbeton' element={< Zakazbeton />}></Route>
 				<Route exact path='/zakazbeton2' element={< Zakazbeton2 />}></Route>
 				<Route exact path='/zakazbeton3' element={< Zakazbeton3 />}></Route>
