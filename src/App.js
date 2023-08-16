@@ -23,9 +23,9 @@ render() {
 		<Routes>
 				<Route exact path='/' element={< News />}></Route>
 				<Route exact path='/Zakazbeton' element={< Zakazbeton />}></Route>
-				<Route exact path='/zakazbeton2' element={< Zakazbeton2 />}></Route>
-				<Route exact path='/zakazbeton3' element={< Zakazbeton3 />}></Route>
-				<Route export path='/zakazbeton4' element={<Zakazbeton4/>}></Route>
+				<Route exact path='/News' element={< News />}></Route>
+				<Route exact path='/Home' element={< Home />}></Route>
+				<Route export path='/Login' element={<Login/>}></Route>
 				<Route export path='/zakazbeton5' element={<Zakazbeton5/>}></Route>
 				<Route export path='/zakazbeton6' element={<Zakazbeton6/>}></Route>
 				<Route export path='/zakazbeton7' element={<Zakazbeton7/>}></Route>
